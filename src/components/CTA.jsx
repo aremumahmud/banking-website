@@ -13,7 +13,7 @@ const CTA = () => (
     </div>
 
     <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
-      <Button />
+       <a href="https://dashboard.swiftscapitals.com"><Button /></a> 
     </div>
   </section>
 );

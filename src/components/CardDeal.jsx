@@ -10,11 +10,10 @@ const CardDeal = () => (
         steps.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
-        aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
+      Discover card options tailored to your needs with a quick, simple process. Compare rates, benefits, and find the best deal—all in just a few steps. Make smarter financial choices with ease!
       </p>
-
-      <Button styles={`mt-10`} />
+  <a href="https://dashboard.swiftscapitals.com">
+      <Button styles={`mt-10`} /></a>
     </div>
 
     <div className={layout.sectionImg}>
