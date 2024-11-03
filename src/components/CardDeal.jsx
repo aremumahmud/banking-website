@@ -12,7 +12,7 @@ const CardDeal = () => (
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
       Discover card options tailored to your needs with a quick, simple process. Compare rates, benefits, and find the best deal—all in just a few steps. Make smarter financial choices with ease!
       </p>
-  <a href="https://dashboard.swiftscapitals.com">
+  <a href="https://dashboard.swiftscapitals.com/signup">
       <Button styles={`mt-10`} /></a>
     </div>
 
