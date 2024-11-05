@@ -1,10 +1,25 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from "./style";
 import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
+import Loader from './components/loaderpage';
 
-const App = () => 
-   (
-    <div className='bg-primary w-full overflow-hidden'>
+
+
+
+const App = () => {
+
+  let [a, setA] = useState(true)
+  
+  useEffect(e => {
+    setTimeout(d => {
+      setA(false)
+    }, 3000)
+  }, [])
+
+  return (
+    <>
+     {
+      a? <Loader />:    <div className='bg-primary w-full overflow-hidden'>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
@@ -28,7 +43,13 @@ const App = () =>
         </div>
       </div>
     </div>
+    }
+    </>
+   
+
   )
+}
+   
 
 
 
