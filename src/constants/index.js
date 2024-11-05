@@ -13,7 +13,7 @@ export const navLinks = [{
         title: "Product",
     },
     {
-        link: "https://dashboard.swiftscapital.com/signup",
+        link: "https://dashboard.swiftscapitals.com/signup",
         title: "Get Started",
     },
 ];
