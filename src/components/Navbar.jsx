@@ -11,8 +11,10 @@ const Navbar = () => {
     <nav className="w-full flex py-6 justify-between items-center navbar" style={{
       background: '#00040f',
       position: 'fixed',
-      width: "90%",
-      zIndex:100
+      width: "100%",
+      zIndex: 100,
+      paddingLeft: '2.6rem',
+      paddingRight:'2.6rem'
     }}>
       <img src={logo} alt="hoobank" className="w-[72px]" />
 
