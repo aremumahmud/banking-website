@@ -1,0 +1,87 @@
+.banner {
+    /* border: 1px solid; */
+    padding: 1rem;
+    height: 60vh;
+}
+
+.banner .image {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.banner .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* filter: grayscale(1); */
+}
+
+.banner .image .bar {
+    position: absolute;
+    top: 0%;
+    /* left: 10%; */
+    font-weight: bolder;
+    font-size: 3rem;
+    border: 1px solid;
+    width: 100%;
+    height: 100%;
+    background-color: #00000052;
+    display: flex;
+    align-items: center;
+    color: #fcfafae2;
+}
+
+.banner .image .bar p {
+    margin-left: 2rem;
+}
+
+.about {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+.about .img {
+    width: 50%;
+}
+
+.about .infos {
+    width: 50%;
+}
+
+.about .infos .title {
+    font-size: 3rem;
+    font-weight: bold;
+    width: 80%;
+    opacity: .8;
+}
+
+.bars {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.bars .item {
+    background-color: #cccccc95;
+    border-radius: 24px;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.bars .item .title {
+    font-size: 1.8rem;
+}
+
+.bars .item .icon {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 1rem;
+}

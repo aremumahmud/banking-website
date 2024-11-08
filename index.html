@@ -11,6 +11,36 @@
 <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+
+    <script>
+        (function(w, d, s, o, f, js, fjs) {
+                w[o] = w[o] || function() {
+                    (w[o].q = w[o].q || []).push(arguments)
+                };
+                js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+                js.id = o;
+                js.src = f;
+                js.async = 1;
+                fjs.parentNode.insertBefore(js, fjs)
+            }
+            (window, document, 'script', 'nw', 'https://chat.norby.io/widget'));
+        nw('init', {
+            apiKey: 'f7c1df84-2d91-4b8a-8dd3-ea47e6999f4d',
+            serviceBaseUrl: 'https://api.norby.io',
+            lang: 'en',
+            languageList: ['AR', 'DA', 'DE', 'EE', 'EN', 'ES', 'FI', 'FR', 'IT', 'JA', 'NO', 'PL', 'PT', 'RU', 'SV', 'TR', 'UA', 'ZH'],
+            mainColor: '#00040f',
+            popupBotAvatarColor: '#00040f',
+            multichat: true,
+            botName: 'Swift Capitals Support',
+            imageTransferEnabled: true,
+            side: 'right',
+            marginSideDesktop: 80,
+            marginBottomDesktop: 48,
+            marginSideMobile: 16,
+            marginBottomMobile: 16
+        });
+    </script>
 </body>
 
 </html>

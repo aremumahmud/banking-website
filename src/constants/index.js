@@ -5,16 +5,20 @@ export const navLinks = [{
         title: "Home",
     },
     {
-        id: "features",
-        title: "Features",
+        link: "/about",
+        title: "About Us",
     },
     {
-        id: "product",
-        title: "Product",
+        link: "https://dashboard.swiftscapitals.com/signin",
+        title: "Login",
     },
     {
         link: "https://dashboard.swiftscapitals.com/signup",
         title: "Get Started",
+    },
+    {
+        id: "contact",
+        title: "Get in Touch",
     },
 ];
 
@@ -81,63 +85,49 @@ export const stats = [{
 export const footerLinks = [{
         title: "Useful Links",
         links: [{
-                name: "Content",
+                name: "About Us",
                 link: "https://www.hoobank.com/content/",
             },
             {
-                name: "How it Works",
+                name: "Testimonials",
                 link: "https://www.hoobank.com/how-it-works/",
             },
             {
-                name: "Create",
+                name: "Faq's",
                 link: "https://www.hoobank.com/create/",
             },
             {
-                name: "Explore",
+                name: "Get In Touch",
                 link: "https://www.hoobank.com/explore/",
             },
-            {
-                name: "Terms & Services",
-                link: "https://www.hoobank.com/terms-and-services/",
-            },
         ],
     },
     {
-        title: "Community",
+        title: "Address",
         links: [{
-                name: "Help Center",
-                link: "https://www.hoobank.com/help-center/",
-            },
-            {
-                name: "Partners",
-                link: "https://www.hoobank.com/partners/",
-            },
-            {
-                name: "Suggestions",
-                link: "https://www.hoobank.com/suggestions/",
-            },
-            {
-                name: "Blog",
-                link: "https://www.hoobank.com/blog/",
-            },
-            {
-                name: "Newsletters",
-                link: "https://www.hoobank.com/newsletters/",
-            },
-        ],
+            name: "R. Mouzinha da Slileva 10. 234-443 portugal",
+            link: "#",
+        }, ],
     },
     {
-        title: "Partner",
+        title: "Support",
         links: [{
-                name: "Our Partner",
-                link: "https://www.hoobank.com/our-partner/",
-            },
-            {
-                name: "Become a Partner",
-                link: "https://www.hoobank.com/become-a-partner/",
-            },
-        ],
+            name: "support@swiftscapitals.com",
+            link: "mailto:support@swiftscapitals.com",
+        }, ],
     },
+    // {
+    //     title: "Partner",
+    //     links: [{
+    //             name: "Our Partner",
+    //             link: "https://www.hoobank.com/our-partner/",
+    //         },
+    //         {
+    //             name: "Become a Partner",
+    //             link: "https://www.hoobank.com/become-a-partner/",
+    //         },
+    //     ],
+    // },
 ];
 
 export const socialMedia = [{
