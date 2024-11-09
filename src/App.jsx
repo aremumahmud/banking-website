@@ -78,6 +78,7 @@ const App = () => {
                 <Banner />
                 <About />
                 <Bars />
+                 <div className='bg-primary w-full overflow-hidden'>
                   <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
          
@@ -86,13 +87,13 @@ const App = () => {
          
         </div>
                 </div>
-                <div className="tile">
+                {/* <div className="tile">
                   <p className="title">Better Value
                     Banking Experience</p>
                   <p>Business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds these matters to this principle of selection.
 
 </p>
-                </div>
+                </div> */}
 
                 <br />
                   <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
@@ -101,7 +102,8 @@ const App = () => {
          
           <Footer />
         </div>
-      </div>
+                  </div>
+                  </div>
               </>}</>} />
       </Routes>
     </Router>

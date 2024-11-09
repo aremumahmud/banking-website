@@ -85,3 +85,28 @@
     border-radius: 50%;
     padding: 1rem;
 }
+
+@media (max-width: 595px) {
+    .about {
+        flex-direction: column;
+    }
+    .about .img {
+        width: 100%;
+    }
+    .about .infos {
+        width: 100%;
+    }
+    .about .infos .title {
+        font-size: 2rem;
+        font-weight: bold;
+        width: 100%;
+        opacity: .8;
+        margin-top: 2rem;
+    }
+    .bars {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 2rem;
+        gap: 2rem;
+    }
+}
