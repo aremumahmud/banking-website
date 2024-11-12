@@ -14,15 +14,15 @@ export default [{
     },
     {
         q: "How do I apply for a loan through Swifts Capitals?",
-        a: `To apply for a loan, log into your Swift-Blink account and navigate to the "Loans" section. Choose the type of loan you are interested in, complete the application form, and submit the required documents. Our loan officers will review your application and contact you with further instructions.`,
+        a: `To apply for a loan, log into your Swifts Capitals  account and navigate to the "Loans" section. Choose the type of loan you are interested in, complete the application form, and submit the required documents. Our loan officers will review your application and contact you with further instructions.`,
     },
     {
         q: "How you safe/secure is our net banking a/c?",
-        a: "Security is our top priority at Swift-Blink. We use advanced encryption, two-factor authentication, and other security measures to protect your personal information and account data. Additionally, we monitor all accounts for suspicious activity to prevent fraud.",
+        a: "Security is our top priority at Swifts Capitals . We use advanced encryption, two-factor authentication, and other security measures to protect your personal information and account data. Additionally, we monitor all accounts for suspicious activity to prevent fraud.",
     },
     {
-        q: "Can I use Swift-Blink internationally?",
-        a: "Yes, Swift-Blink provides international services. Our international debit cards allow you to make purchases and withdraw cash worldwide. Please notify us before traveling to ensure uninterrupted service and to receive travel tips for secure banking abroad.",
+        q: "Can I use Swifts Capitals  internationally?",
+        a: "Yes, Swifts Capitals  provides international services. Our international debit cards allow you to make purchases and withdraw cash worldwide. Please notify us before traveling to ensure uninterrupted service and to receive travel tips for secure banking abroad.",
     },
     {
         q: "How can I reset my password if I forget it?",

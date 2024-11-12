@@ -16,8 +16,7 @@ const Navbar = () => {
       paddingLeft: '2.6rem',
       paddingRight:'2.6rem'
     }}>
-      <img src={logo} alt="hoobank" className="w-[72px]" />
-
+         <a href="https://swiftscapitals.com"><img src={logo} alt="hoobank" className="w-[72px]" /></a>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
